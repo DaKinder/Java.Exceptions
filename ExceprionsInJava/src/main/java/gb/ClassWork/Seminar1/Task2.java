@@ -12,7 +12,7 @@ package gb.ClassWork.Seminar1;
 public class Task2 {
     public static int arraySumCounter2D(byte[][] arr){
         int count = 0;
-        if(arr == null) throw new RuntimeException("[Массив не инициализирован]");
+        if(arr == null) throw new RuntimeException();
         for (byte[] internal: arr) {
             if(internal == null) throw new RuntimeException("[Не все вложенные массивы инициализированы]");
         }

@@ -57,13 +57,14 @@ public class Program {
 
 //        Code 7
 
-//        int[] arr1 = {1,2,3,4,5};
-//        int[] arr2 = {5,4,3,2,1};
-//
-//        int[] multipliedArray = Task7.multiplyArrays( arr1, arr2);
-//        for (int i = 0; i < multipliedArray.length; i++) {
-//            System.out.println(multipliedArray[i]);
-//        }
+        int[] arr1 = {1,2,3,4,5,1};
+        int[] arr2 = {5,4,3,2,1};
+
+        int[] multipliedArray = Task7.multiplyArrays( arr1, arr2);
+        for (int i = 0; i < multipliedArray.length; i++) {
+            System.out.println(multipliedArray[i]);
+        }
+
 
     }
 }
